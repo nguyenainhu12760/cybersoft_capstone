@@ -1,0 +1,54 @@
+      .new-block {
+
+          background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.33)),
+              url(https://wp.w3layouts.com/masterwork/wp-content/themes/masterwork/assets/images/bg.jpg);
+          background-size: cover;
+          background-repeat: no-repeat,
+              no-repeat,
+              no-repeat;
+          background-position: center;
+          background-attachment: fixed;
+          min-height: 480px;
+          display: grid;
+          align-items: center;
+          padding: 2rem 0;
+      }
+
+      .content {
+
+          background: linear-gradient(to right, var(--bg-color), rgba(255, 255, 255, 0.92)),
+              url(https://wp.w3layouts.com/masterwork/wp-content/themes/masterwork/assets/images/banner.jpg);
+          position: relative;
+          z-index: 1;
+          overflow: hidden;
+          background-repeat: no-repeat,
+              no-repeat,
+              no-repeat;
+          background-position: center;
+          background-attachment: fixed;
+          background-size: cover;
+          display: grid;
+          align-items: center;
+          padding-top: 5rem;
+      }
+
+      .menu-item-has-children::after {
+          position: absolute;
+          right: 5px;
+          top: 19px;
+          display: inline-block;
+          content: "\f107";
+          font: normal normal normal 5px / 1 FontAwesome;
+          font-size: inherit;
+          color: var(--title-color);
+      }
+
+      .navbar-expand-lg .navbar-nav .nav-item.dropdown {
+          padding-right: 20px;
+      }
+
+      .navbar-expand-lg .navbar-nav .nav-item {
+          padding: 0 15px;
+          transition: all 0.5s ease;
+          position: relative;
+      }
